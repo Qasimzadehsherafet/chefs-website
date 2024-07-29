@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading container">
+            <div class="heading_number">
+                <i class="fa-solid fa-phone"></i>
+                <p>+994 50 000 00 00</p>
+            </div>
+            <div class="heading_logo"><h5>LOGO</h5></div>
+            <div class="heading_language">
+                <i class="fa-solid fa-globe"></i>
+                <p>En</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="">About us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Our team</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+            <button class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars bar"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="title">
+                <div class="title__content">
+                    <div class="title__text">
+                        <h1>Awaken Your<span> Inner Chef</span> </h1>
+                        <div class="title__button">
+                            <div><button>Learn more</button></div>
+                            <div class="b"><a href="">Watch the video</a></div>
+                        </div>
+                    </div>
+                    <div class="z">
+                        <div class="title__img"><img src="https://s3-alpha-sig.figma.com/img/d8a1/8801/4748bcab0e44491e327a181e05e0c45b?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ey3Z5vuSAnHfKMmA38iZlIK~eAm80k69WJoBNVQ8qyi-Pzn8PGFt0E590KTNKmtdvg9HBars60btia9aDXWsv4sIeqqRuM6x2qiGaLEEF0SiuQNC1CozNCi6vJ2O~dv3URASBYy0JZs7ZFIFktJbTS24~QBazjyems5AJ4BBFhRq8pfqmNjMDqBiaDKweVx42BnQtIibhFjbkGeVDxlgaXEPgN~9~wZKyMdAIqdMf1xVr4XX0TM3NlHkR1NliZEBC9YhPeV-YtzGB6vOlqS8v6Q90XZOsYxXVOtWfSEtzhmhVCHOdNv7-i9hiNS~Z6FJBvdrgArv50A~VvaiqAq8Xw__" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="about container">
+                <div class="about__content">
+                    <div class="about__text">
+                        <h2>About us</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                        <div class="about__button">
+                            <div>
+                                <button>Learn more</button>
+                            </div>
+                            <div class="a">
+                                <a href="http://">Watch the video</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__img">
+                        <div>
+                            <img src="figma-img/Group (2).png" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="services container">
+                <h2>Services</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                <div class="services__button">
+                    <div><button>Learn more</button></div>
+                    <div class="services__icon">
+                        <i class="fa-solid fa-chevron-left "></i>
+                        <i class="fa-solid fa-chevron-right "></i>   
+                    </div>
+                </div>
+                
+
+                <div class="swiper services__img">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="services__card">
+                            <img src="https://s3-alpha-sig.figma.com/img/0295/2659/ebab0a0124886f42313d940e0f7fc942?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LFMAxhRlwZAUVwSK87qUVdP2XqRxNlMx0upPuHeQ6uRHFPgxuAxhnrik~eSP71ahq5GQ~qW7DI0Y5ecrZWg6Ee3SKHqbkHwhTQRTivSUzLtFwROB-By-~aATmXkP2wUHznckelvfdIN5KUaH5ZKUeda5SHjle3DDn3QuJ~JRpvYZz8GNTGcbR~ycwnGYFrCETnpcCBU4lOWJxsldB9ZWBmpFG-UzreH1wCSWdicUYAFPLMcfm-waKwSObDfQ031Eld3Helt0j4qwFkoK8REOmAAD7IoaCP7srAelx5tLRNYBM7nTXqbsDqtVkaN3iG1aMEFkxdNZuxKRRKQqOOSg~A__" >
+                            <div><p>Lorem ipsum</p></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div class="products container">
+                <div class="products__head">
+                    <h2>Products</h2>
+                    <a href="http://">all products</a>
+                </div>
+                <div class="products__container">
+                    <div class="container_box">
+                        <div><img src="figma-img/Group.png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Frame.png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Group (1).png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Frame (1).png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Frame (1).png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Group (1).png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Frame.png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="container_box">
+                        <div><img src="figma-img/Group.png" ></div>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="Ourteam container">
+                <div class="Ourteam__head">
+                    <div class="Ourteam__h">
+                        <h2>Our team</h2>
+                    </div>
+                    <div class="Ourteam__icon">
+                        <i class="fa-solid fa-chevron-left "></i>
+                        <i class="fa-solid fa-chevron-right "></i> 
+                    </div>
+                </div>
+                <!-- <div class="swipper Ourteam__boxs">
+                    <div class=" swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="Ourteam__boxs_content">
+                                <div class="boxs_content">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                                <div class="boxs__img">
+                                    <img src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Ourteam__boxs_content">
+                                <div class="boxs_content">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                                <div class="boxs__img">
+                                    <img src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Ourteam__boxs_content">
+                                <div class="boxs_content">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                                <div class="boxs__img">
+                                    <img src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="Ourteam__boxs_content">
+                                <div class="boxs_content">
+                                    <h5>Lorem ipsum</h5>
+                                    <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                </div>
+                                <div class="boxs__img">
+                                    <img src="https://s3-alpha-sig.figma.com/img/289a/3542/f18c7bb7a5efbd885a9c05c83e14f2b0?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CUMGKR-N4p4nm24vSJeYOTE~siHYGFm-dldgScYBwvloplDAYFHvr1oNMbOZa5q3TzPoL1I8n7TKoL17b9cCvh-JwBe0EYuZaOZ58jQVtLfXBSalb5ycdKGdinPkM3b5GEWkbaaOnOCvvK62RW6oShoiqcBdTlXNi8nE-CibrtCxN70HVNEwznY7spcw4-hbavtzQ8bImelq5vYVdi9A5H-CONAhkfwuXbBF-QlsH4sIwUxlEszCvpDdJI-8MLBMef~7dltDlzMfO0bq-aIjK7NfaBxqEb83DSSq1kq8T8mI5MkBAyzIew-6HfrMhXBlWl4HCJ7NqMNPVXPYPpeZ3Q__" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="swiper Ourteam__boxs">
+                    <div class="swiper-wrapper">
+                     
+                      <div class="swiper-slide">
+                        <div class="Ourteam__boxs_content">
+                            <div class="boxs_content">
+                                <h5>Lorem ipsum</h5>
+                                <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            </div>
+                            <div class="boxs__img">
+                                <img src="figma-img/uploads_chef_chef_PNG29 3 (1).png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="Ourteam__boxs_content">
+                            <div class="boxs_content">
+                                <h5>Lorem ipsum</h5>
+                                <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            </div>
+                            <div class="boxs__img">
+                                <img src="figma-img/uploads_chef_chef_PNG29 3 (1).png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="Ourteam__boxs_content">
+                            <div class="boxs_content">
+                                <h5>Lorem ipsum</h5>
+                                <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            </div>
+                            <div class="boxs__img">
+                                <img src="figma-img/uploads_chef_chef_PNG29 3 (1).png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="Ourteam__boxs_content">
+                            <div class="boxs_content">
+                                <h5>Lorem ipsum</h5>
+                                <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            </div>
+                            <div class="boxs__img">
+                                <img src="figma-img/uploads_chef_chef_PNG29 3 (1).png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="Ourteam__boxs_content">
+                            <div class="boxs_content">
+                                <h5>Lorem ipsum</h5>
+                                <p>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            </div>
+                            <div class="boxs__img">
+                                <img src="figma-img/uploads_chef_chef_PNG29 3 (1).png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                    
+                      
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+                  </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="Contactus container">
+                <h2>Contact us</h2>
+                <div class="Contactus__box">
+                    <div>
+                        <div class="Contactus__box-text">
+                         <div><i class="fa-solid fa-location-dot"></i></div>
+                         <div>quasi architecto beatae
+                              vitae dicta sunt
+                         </div>
+                        </div>
+                        <div class="Contactus__box-text">
+                         <div><i class="fa-solid fa-phone"></i></div>
+                         <div>+994 55 555 55 55</div>
+                        </div>
+                        <div class="Contactus__box-text">
+                         <div><i class="fa-solid fa-envelope"></i></div>
+                         <div>randommail@gmail.com</div>
+                        </div>
+                        <div class="Contactus__box-text">
+                         <div><i class="fa-solid fa-clock"></i></div>
+                         <div>Mon. — Fri:    08:00 - 17:00</div>
+                        </div> 
+                     </div>
+                     <div class="Contactus_map">
+                         <div><img src="https://s3-alpha-sig.figma.com/img/12a9/e159/591075618427406eb4a77be400eced1f?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=faWW18YoprBBZv~sw4S~~HW9viDzEc2bbUAZ5UgnLMVf9jngOPCEUa8aPZLXziEL6hpdnzkr4nf3xKETq1lC3uH3CcNCwP8m49r-NRMo2ksVzCtQm4CHOzaUmbqRKJ22INgze0V30ylQTJZ-LoXHY77jZsrBEK~dprmMEPOTrITA5sbWf7lJ6gwaQjmnuimR8DQIayNeTw2qgOenwsSAVp05LK4HSKc7LWo-WdXqBI5IlAynPgi9EIvAv4TLD8A0-OvOU4BP8YI5O7Cz~cYXAu1ksepWQBsJ1g7oWcRBxKYRCL1s-ULOWmc-3FPZjh6rHtZyrVJSgPyU~rV7yytfag__" alt=""></div>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__content container">
+                <div class="footer_logo">
+                     <h2>LOGO</h2>
+                     <button onclick="scrollToTop()"><i class="fa-solid fa-chevron-up"></i>   </button>
+                </div>
+                <div class="footer__icon">
+                 <div class="sosialmedia_icon" >
+                     <div><i class="fa-brands fa-square-facebook"></i></div>
+                     <div><i class="fa-brands fa-instagram"></i></div>
+                     <div><i class="fa-brands fa-square-twitter"></i></div>
+                 </div>
+                 <div class="footer_text">
+                     <div>Privacy Policy</div>
+                     <div>Legal terms </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copiright">©2022 All Right Reserved. Developed by Webcoder</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./slider.js"></script>
+</body>
+</html>
+

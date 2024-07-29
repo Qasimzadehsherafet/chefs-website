@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color:#FFF1D4;
+    color: #00543D;
+}
+.container{
+    margin: 0 auto;
+    max-width:1390px;
+    width: 95%;
+}
+/* _____nav_____ */
+header{
+    background-color: #00543D;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF1D4;
+    padding-top: 30px;
+}
+.heading_number{
+    display: flex;
+    gap: 14px;
+}
+.heading_logo h5{
+    font-family: Sofia Pro;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+
+}
+.heading_language{
+    display: flex;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    padding-top: 20px;
+}.nav-list a{
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFF1D4;
+
+}
+/* -----title----- */
+.title__content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00543D;
+    color: #FFF1D4;
+    border-radius: 0px 0px 110px 110px;}
+.title__text h1{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 300;
+    line-height: 105px;
+    padding-top: 160px;
+    text-align: center;
+}
+.title__text{
+    flex: 1;
+}
+.z{
+    flex: 1;
+}
+.title__text  span{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 500;
+    line-height: 105px;
+
+}
+.title__button{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 258px;
+    margin-top: 30px;
+}
+.title__button div button{
+    background-color: #CC9964;
+    color: #FFF1D4;
+    padding: 10px 38px;
+    border-radius: 70px;
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    border: none;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__button div a{
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.title__img{
+    width: 100%;
+    height: 100%;
+    /* width: 929px; */
+    /* height: 714px; */
+}
+
+.title__img img {
+    border-radius: 0 0 100px 0;
+}
+/*-----about-----  */
+.about{
+    margin-top: 144px;
+}
+.about__content{
+    display: flex;
+    justify-content: space-between;
+}
+.about__text h2{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 600;
+    line-height: 105px;
+    text-align: left;
+    color: #CC9964;
+    margin-bottom: 30px;
+}
+.about__text p{
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 563px;
+    margin-left: 90px;
+
+}
+.about__button{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.about__button div button{
+    background-color: #00543D;
+    color: #FFF1D4;
+    padding: 10px 38px;
+    border-radius: 70px;
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    border: none;
+    /* text-align: left; */
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.about__button div a{
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+/* -----services----- */
+.services{
+    margin-top: 150px;
+}
+.services h2{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 600;
+    line-height: 105px;
+    /* text-align: center; */
+    color: #CC9964;
+
+}
+.services p{
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 447px;
+    margin-top: 35px;
+}
+.services__button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.services__button div button{
+    background-color: #00543D;
+    color: #FFF1D4;
+    padding: 10px 38px;
+    border-radius: 70px;
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    border: none;
+}
+.services__icon{
+    display: flex;
+    gap: 15px;
+}
+.services__icon i{
+    width: 38px;
+    height: 38px;
+    background-color: #00543D;
+    color: #FFF1D4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide{
+    width: max-content;
+}
+.services__card{
+    border-radius: 30px;
+    overflow: hidden;
+    width: 330px;
+    height: 316px;
+}
+.services__card img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.services__card div{
+    position: absolute;
+    top: 222px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0, 0, 0.3);
+}
+.services__card div p{
+    font-family: Sofia Pro;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    color: #FFF1D4;
+    margin-left: 27px;
+}
+/* -----products----- */
+.products{
+    margin-top: 160px;
+}
+.products__head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.products__head h2{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 600;
+    line-height: 105px;
+    text-align: center;
+    color: #CC9964;
+}
+.products__head a{
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.products__container{
+    margin: 0 auto;
+    /* max-width: 1256px; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    /* grid-auto-rows: 417px; */
+    gap: 20px 20px;
+    
+}
+.products__container img{
+    object-fit: contain;
+}
+.products__container .container_box{
+    border: 2px solid #CC9964;
+    border-radius: 50px;
+}
+.container_box div{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 76px;
+}
+.container_box div img{
+    width: 195px;
+    height: 192px;
+}
+.container_box p{
+    font-family: Sofia Pro;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+
+}
+/*----- Ourteam----- */
+.Ourteam{
+    margin-top: 100px;
+}
+.Ourteam__head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.Ourteam__h{
+    color: #CC9964;
+    font-style: Sofia Pro;
+    font-weight: 600;
+    font-size: clamp( 44px, 6vw , 90px );
+    line-height: 105px;
+}
+.Ourteam__icon{
+    display: flex;
+    gap: 15px;
+}
+.Ourteam__icon i{
+    width: 38px;
+    height: 38px;
+    background-color: #00543D;
+    color: #FFF1D4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ourteam__boxs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* max-width: 450px; */
+}
+.Ourteam__boxs_content{
+    max-width: 450px;
+    height: 275px;
+    display: flex;
+    align-items: center;
+    background-color: #00543D;
+    border-radius: 40px;
+    color: #FFF1D4;
+    max-width: 450px;
+    padding: 0 15px
+    /* margin: 0 auto; */
+}
+.Ourteam__boxs_content > div{
+    flex: 1;
+}
+/* .boxs__img{
+    width: 100%;
+    height: 80%;
+} */
+/* .boxs__img img{
+    object-position: 90% 100%;
+    
+} */
+/* .boxs_content{
+    width: 184px;
+ } */
+.boxs_content h5{
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.54px;
+    text-align: center;
+}
+/* .boxs_content p{
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.54px;
+    text-align: left;
+
+}  */
+/* -----Contactus----- */
+.Contactus{
+    margin-block: 160px;
+}
+.Contactus h2{
+    font-family: Sofia Pro;
+    font-size: clamp( 44px, 6vw , 90px );
+    font-weight: 600;
+    line-height: 105px;
+    text-align: center;
+    color: #CC9964;
+    margin-bottom: 50px;
+}
+.Contactus__box{
+    display: flex;
+    justify-content: space-between;
+}
+.Contactus__box-text{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 45px;
+}
+.Contactus_map{
+    width: 680px;
+    height: 374px;
+}
+/* _____footer____ */
+.footer{
+    background-color: #00543D;
+    color: #FFF1D4;
+}
+.footer__content{
+    padding-block: 50px;
+}
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer_logo button{
+    background-color: #FFF1D4;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    border: none;
+}
+.footer__icon{
+    display: flex;
+    justify-content: space-between;
+}
+.sosialmedia_icon{
+    display: flex;
+    gap: 25px;
+    color: #FFF1D4;
+}
+.footer_text{
+    display: flex;
+    gap: 25px;
+}
+.copiright{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #00543D;
+    color: #FFF1D4;
+}
+
+.icon{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .icon{
+        display: block;
+    }
+    .nav-list{
+        display: none;
+
+        /* text-align: end;
+        margin-right: 20px; */
+        /* position: absolute; */
+
+
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .heading_number{
+        display: none;
+    }
+    .heading_language{
+        display: none;
+    }
+    header nav .bar{
+        display: block;
+        color: #FFF1D4;
+        text-align: end;
+    }
+    /* -----title----- */
+    .title__content{
+        flex-direction: column;
+    }
+    .title__text h1{
+        padding-top: 60px;
+    }
+    .title__button{
+        /* gap: 30px; */
+        flex-wrap: wrap;
+        margin-bottom: 30px;  /* ??? */
+        margin-top: 30px;
+    }
+    .title__img img {
+        border-radius: 0 0 100px 100px;
+    }
+    /*  */
+    .about__content{
+        flex-wrap: wrap;
+    }
+    .about__img{
+        margin-top: 60px;
+    }
+    
+    /* ------contact--------- */
+   .Contactus__box{
+    flex-wrap: wrap;
+   }
+
+   /* _____footer____ */
+   .footer_logo button{
+    display: none;
+   }
+   .footer__icon{
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+   }
+   .footer_text{
+    flex-wrap: wrap;
+   }
+}
